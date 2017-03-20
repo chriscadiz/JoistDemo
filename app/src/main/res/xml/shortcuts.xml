@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/estimate"
+        android:shortcutDisabledMessage="@string/new_estimate"
+        android:shortcutId="estimate"
+        android:shortcutLongLabel="@string/new_estimate"
+        android:shortcutShortLabel="@string/new_estimate">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nimblinteractive.joistdemo.EstimateActivity"
+            android:targetPackage="com.nimblinteractive.joistdemo" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/invoice"
+        android:shortcutDisabledMessage="@string/new_invoice"
+        android:shortcutId="invoice"
+        android:shortcutLongLabel="@string/new_invoice"
+        android:shortcutShortLabel="@string/new_invoice">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nimblinteractive.joistdemo.InvoiceActivity"
+            android:targetPackage="com.nimblinteractive.joistdemo" />
+    </shortcut>
+</shortcuts>
